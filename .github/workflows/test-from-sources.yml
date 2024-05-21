@@ -87,6 +87,7 @@ jobs:
         python -m pip install --upgrade pip setuptools setuptools_scm wheel
         # todo: remove git pysub once pyusb/pyusb#511 reaches a release
         python -m pip install git+https://github.com/pyusb/pyusb
+        python -m pip install numpy
         python -m pip install .
 
     - name: Test that the installed executable is able to probe for devices
