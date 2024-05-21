@@ -67,6 +67,7 @@ jobs:
           crcmod==1.7 \
           docopt \
           hidapi \
+          numpy \
           pillow \
           pytest \
           git+https://github.com/pyusb/pyusb \
